@@ -18,21 +18,16 @@ class SnackAdapter(private val items: ArrayList<Snack>,
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.bind(items[position])
-        holder.itemView.setOnClickListener { listener.onItemClick() }
+        holder.itemView.setOnClickListener { listener.onItemClick(position,items[position]) }
     }
 
     class ViewHolder(itemsView: View): RecyclerView.ViewHolder(itemsView) {
         fun bind(member: Snack) {
             itemView.apply {
-
                 textMemberNickName.text = member.price.toString()+ " ฿"
                 textMemberName.text = member.name
             }
             Picasso.get().load(member.imgUrl).into(itemView.imgMember)
         }
     }
-    interface SnackListener {
-        fun onItemClick()
-    }
-
 }
