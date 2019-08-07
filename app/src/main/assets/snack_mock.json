@@ -1,0 +1,39 @@
+{
+  "snacks": [
+    {
+      "imgUrl": "https://s359.kapook.com/config-desktop/7b857e2b-22e5-4a56-940e-dee8bb7a64e8.jpg",
+      "name": "ลูกชุบ",
+      "price": 40
+    },
+    {
+      "imgUrl": "https://s359.kapook.com/rq/580/435/50/pagebuilder/cdc51638-56c2-4581-97ed-1bd5e75667ec.jpg",
+      "name": "วุ้นกรอบ",
+      "price": 20
+    },
+    {
+      "imgUrl": "https://i.pinimg.com/564x/8e/a9/88/8ea98826e74aaadc2e201bc7386f3970.jpg",
+      "name": "ข้าวเหนียวมะม่วง",
+      "price": 80
+    },
+    {
+      "imgUrl": "https://i.pinimg.com/564x/40/f5/25/40f525351d6165d67d5d0bd29aa56720.jpg",
+      "name": "ข้าวเหนียวถั่วดำ",
+      "price": 25
+    },
+    {
+      "imgUrl": "https://nlovecooking.com/wp-content/uploads/2016/11/tago-thai-dessert-FB.png",
+      "name": "ตะโก้เผือก",
+      "price": 40
+    },
+    {
+      "imgUrl": "https://i.pinimg.com/564x/b9/7d/24/b97d246bafc23daac77e7e504f7c052f.jpg",
+      "name": "เมี่ยงครำ",
+      "price": 99
+    },
+    {
+      "imgUrl": "https://arit.kpru.ac.th/ap2/local//contents/Food_kpp/30.jpg",
+      "name": "ขนมถ้วย",
+      "price": 40
+    }
+  ]
+}
