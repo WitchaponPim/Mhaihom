@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/rootItem"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="8dp"
+              android:padding="8dp"
+              android:background="@color/color_content_1">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+                  android:orientation="vertical">
+        <ImageView
+                android:background="#E9E9E9"
+                android:id="@+id/imgMember"
+                android:scaleType="fitCenter"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_marginStart="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/textMemberName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:maxLines="2"
+                />
+        <TextView
+                android:id="@+id/txtDetail"
+                android:layout_marginVertical="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="detail"
+                android:textSize="12dp"
+                android:maxLines="4"
+        />
+
+        <LinearLayout
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <View android:layout_width="match_parent"
+                  android:layout_marginVertical="8dp"
+                  android:background="@color/colorPrimary"
+                  android:layout_height="1dp"/>
+            <TextView
+                    android:id="@+id/textMemberNickName"
+                    android:layout_marginBottom="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    android:textSize="16dp"
+                    android:textColor="@color/color_text"/>
+            <Button
+                    android:layout_gravity="center"
+                    style="@style/customBtn"
+                    android:id="@+id/addBtn"
+                    android:textAllCaps="false"
+                    android:text="เพิ่มในตะกร้า"
+                    android:paddingHorizontal="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

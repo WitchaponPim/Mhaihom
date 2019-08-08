@@ -26,6 +26,15 @@
             android:textColor="@color/color_text"
             android:maxLines="2"
             android:ellipsize="end"/>
+    <TextView
+            android:id="@+id/txtDetail"
+            android:layout_marginStart="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="detail"
+            android:textSize="12dp"
+            android:maxLines="2"
+    />
     <View android:layout_width="match_parent" android:layout_margin="8dp" android:background="@color/colorPrimary" android:layout_height="1dp"/>
 
     <TextView
@@ -36,7 +45,14 @@
             android:text="Cherprang"
             android:textSize="18dp"
             android:textColor="@color/color_text"/>
-
+    <Button
+            android:layout_gravity="center"
+            style="@style/customBtn"
+            android:id="@+id/addBtn"
+            android:text="Add to cart"
+            android:paddingHorizontal="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"/>
 
 
 </LinearLayout>
