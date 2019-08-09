@@ -1,7 +1,10 @@
 package com.phoenix.mhaihom
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
+import android.widget.Toast
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -28,7 +31,7 @@ class TestFiebaseActivity : AppCompatActivity() {
         databaseReference = firebaseDatabase!!.getReference("bookshelf/data")
         response_data = mutableListOf()
 
-        dataAdapter = DataAdapter(response_data as ArrayList<DataModel>)
+        dataAdapter = DataAdapter(response_data)
         recyclerView!!.setAdapter(dataAdapter)
         bindingData()
     }
@@ -43,7 +46,14 @@ class TestFiebaseActivity : AppCompatActivity() {
             }
 
             override fun onChildChanged(p0: DataSnapshot, p1: String?) {
-
+                Toast.makeText(applicationContext, "Change ${p0.key}",Toast.LENGTH_SHORT).show()
+                val newvalue = p0.getValue(DataModel::class.java)
+                val commentKey = p0.key
+                Log.d("Ammy",commentKey)
+                Log.d("Ammy", newvalue.toString())
+//
+//
+//                response_data!!.remove(p0.getValue(DataModel::class.java))
             }
 
             override fun onChildAdded(p0: DataSnapshot, p1: String?) {
