@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "477639403609",
+    "firebase_url": "https://mhaihom-4e9a7.firebaseio.com",
+    "project_id": "mhaihom-4e9a7",
+    "storage_bucket": "mhaihom-4e9a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477639403609:android:e47f837c8386d94a",
+        "android_client_info": {
+          "package_name": "com.phoenix.mhaihom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477639403609-44ifq51djhejda5v9qjgt5g8v4r014da.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.phoenix.mhaihom",
+            "certificate_hash": "adf879d539f428764213d103f46b81ecc33a48de"
+          }
+        },
+        {
+          "client_id": "477639403609-55on0v7jcequ2he2hfcfutbfnmlhkck5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALrKV_whXSfhvmfiXCz34VQU4j0V5Ciss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477639403609-55on0v7jcequ2he2hfcfutbfnmlhkck5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

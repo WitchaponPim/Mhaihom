@@ -4,6 +4,8 @@
     <color name="colorPrimaryDark">@color/color_dark_header</color>
     <color name="colorAccent">#325A8B</color>
 
+    <color name="colorDarkBG">#333</color>
+    <color name="colorWhite">#FFFFFF</color>
     <color name="color_header">#FDBD5C</color>
     <color name="color_content_1">#FFFFFF</color>
     <color name="color_content_2">#FE8AA5</color>
